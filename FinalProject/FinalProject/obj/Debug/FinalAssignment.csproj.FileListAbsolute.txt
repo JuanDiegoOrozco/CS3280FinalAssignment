@@ -5,3 +5,4 @@ C:\Users\orozc\Documents\FinalProject\FinalProject\obj\Debug\App.g.cs
 C:\Users\orozc\Documents\FinalProject\FinalProject\obj\Debug\FinalProject_MarkupCompile.cache
 C:\Users\orozc\Documents\FinalProject\FinalProject\obj\Debug\FinalProject_MarkupCompile.lref
 C:\Users\orozc\Documents\SCHOOL FILES & HOMEWORK\Object Oriented Windows Applications (C#)\CS3280FinalProj\FinalProject\FinalProject\bin\Debug\FinalProject.exe.config
+C:\Users\orozc\Documents\CS3280FinalAssignment\FinalProject\FinalProject\bin\Debug\FinalProject.exe.config
