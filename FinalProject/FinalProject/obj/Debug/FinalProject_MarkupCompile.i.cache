@@ -4,16 +4,28 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\orozc\Documents\CS3280FinalAssignment\FinalProject\FinalProject\obj\Debug\
+=======
+D:\CS3280FinalAssignment\FinalProject\FinalProject\obj\Debug\
+>>>>>>> origin/master
 FinalProject
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\orozc\Documents\CS3280FinalAssignment\FinalProject\FinalProject\App.xaml
 11151548125
 
 111133386086
 70-518724400
+=======
+D:\CS3280FinalAssignment\FinalProject\FinalProject\App.xaml
+11151548125
+
+111133386086
+70-207093533
+>>>>>>> origin/master
 MainWindow.xaml;
 
 False
