@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\orozc\Documents\FinalProject\FinalProject\obj\Debug\
+C:\Users\orozc\Documents\CS3280FinalAssignment\FinalProject\FinalProject\obj\Debug\
 FinalProject
 none
 false
 DEBUG;TRACE
-C:\Users\orozc\Documents\FinalProject\FinalProject\App.xaml
-11151548125
+C:\Users\orozc\Documents\CS3280FinalAssignment\FinalProject\FinalProject\App.xaml
+11811751144
 
-7797855313
-671100167164
-MainWindow.xaml;
+7278667463
+70-518724400
+Views\MainView.xaml;
 
-True
+False
 

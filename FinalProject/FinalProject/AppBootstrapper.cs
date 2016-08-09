@@ -6,7 +6,7 @@ namespace FinalAssignment
 	using FinalAssignment.ViewModels;
 	using InventoryData;
 	using InventoryDataInteraction;
-	using Common.Interfaces;
+	//using Common.Interfaces; dont know what this is for yet...
 
 	public class AppBootstrapper : BootstrapperBase
 	{
@@ -28,10 +28,10 @@ namespace FinalAssignment
 
             container.Singleton<IWindowManager, WindowManager>();
             container.Singleton<IEventAggregator, EventAggregator>();
-            container.PerRequest<MainViewModel>();
-            container.PerRequest<InventoryViewModel>();
-            container.PerRequest<NewOrderViewModel>();
-            container.PerRequest<OrdersViewModel>();
+            container.PerRequest<MainViewModel>();// juan
+            //container.PerRequest<InventoryViewModel>(); collin
+            //container.PerRequest<NewOrderViewModel>(); collin
+            //container.PerRequest<OrdersViewModel>(); robert
 
             container.Singleton<IInventoryData, DatabaseInteraction>();
         }

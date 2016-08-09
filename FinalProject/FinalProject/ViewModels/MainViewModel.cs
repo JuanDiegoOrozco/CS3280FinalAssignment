@@ -17,9 +17,9 @@ namespace FinalAssignment.ViewModels
             Orders();
         }
         public void Orders() {
-            var ordersVM = IoC.Get<OrdersViewModel>();
+            //var ordersVM = IoC.Get<OrdersViewModel>();
             //IoC.Get<OrdersViewModel>();
-            OnActivate(ordersVM);
+            //OnActivate(ordersVM);
         }
     }
 }
