@@ -26,3 +26,4 @@ C:\Users\orozc\Documents\CS3280FinalAssignment\FinalProject\FinalProject\obj\Deb
 C:\Users\orozc\Documents\CS3280FinalAssignment\FinalProject\FinalProject\obj\Debug\FinalAssignment.csproj.GenerateResource.Cache
 C:\Users\orozc\Documents\CS3280FinalAssignment\FinalProject\FinalProject\obj\Debug\FinalProject.exe
 C:\Users\orozc\Documents\CS3280FinalAssignment\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\orozc\Documents\CS3280FinalAssignment\FinalProject\FinalProject\obj\Debug\FinalAssignment.csprojResolveAssemblyReference.cache

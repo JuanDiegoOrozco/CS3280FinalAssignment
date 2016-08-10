@@ -8,25 +8,25 @@ namespace InventoryData
 {
 	public interface IInventoryData
 	{
-		/// <summary>
-		/// Retrieves all orders from the database
-		/// </summary>
-		/// <remarks>
-		/// You will need to have this method populate all of the order items as well for them to show up.
-		/// You should also have the method populate the individual items for each order as well.
-		/// </remarks>
-		IEnumerable<Order> GetOrders();
-		/// <summary>
-		/// Retrieves all item records from the database
-		/// </summary>
-		/// <returns></returns>
-		IEnumerable<Item> GetItems();
-		/// <summary>
-		/// Retrieves all order items for the given order
-		/// </summary>
-		/// <param name="orderNumber">The id number for the order to which these order items belong</param>
-		/// <remarks>You will need to populate the item records for each order item as well</remarks>
-		IEnumerable<OrderItem> GetOrderItems(int orderNumber);
+        /// <summary>
+        /// Retrieves all orders from the database
+        /// </summary>
+        /// <remarks>
+        /// You will need to have this method populate all of the order items as well for them to show up.
+        /// You should also have the method populate the individual items for each order as well.
+        /// </remarks>
+        IEnumerable<Order> GetOrders();
+        /// <summary>
+        /// Retrieves all item records from the database
+        /// </summary>
+        /// <returns></returns>
+        IEnumerable<Item> GetItems();
+        /// <summary>
+        /// Retrieves all order items for the given order
+        /// </summary>
+        /// <param name="orderNumber">The id number for the order to which these order items belong</param>
+        /// <remarks>You will need to populate the item records for each order item as well</remarks>
+        IEnumerable<OrderItem> GetOrderItems(int orderNumber);
 
 		/// <summary>
 		/// Saves the given order to the database
