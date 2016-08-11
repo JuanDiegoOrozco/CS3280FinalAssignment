@@ -5,11 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Caliburn.Micro;
 using InventoryData;
+using System.Collections.ObjectModel;
+
 namespace FinalAssignment.ViewModels
 {
     class MainViewModel : Conductor<IScreen>.Collection.OneActive
     {
-        public List<Order> icollection = new List<Order>();
+        private ObservableCollection<Order> icollection;
         public MainViewModel() {
             this.DisplayName = "Inventory Application";
             
@@ -24,8 +26,15 @@ namespace FinalAssignment.ViewModels
             dummy1.Purchaser = dumdum;
             dummy1.TotalCost = 1000000;
 
-            List<Order> icollection = new List<Order>();
+            icollection = new ObservableCollection<Order>();
             icollection.Add(dummy1);
+        }
+        public ObservableCollection<Order> AllOrders
+        {
+            get
+            {
+                return icollection;
+            }
         }
         protected override void OnActivate() {
             base.OnActivate();

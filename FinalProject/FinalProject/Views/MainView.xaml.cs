@@ -25,6 +25,7 @@ namespace FinalProject.Views
         {
             InitializeComponent();
             DataContext = new MainViewModel();
+
         }
     }
 }
