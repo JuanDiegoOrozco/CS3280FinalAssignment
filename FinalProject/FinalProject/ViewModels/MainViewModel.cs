@@ -81,6 +81,5 @@ namespace FinalAssignment.ViewModels
                 return orderItems;
             }
         }
-
     }
 }

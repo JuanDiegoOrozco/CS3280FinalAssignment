@@ -6,25 +6,25 @@ namespace FinalAssignment
 	using FinalAssignment.ViewModels;
 	using InventoryData;
 	using InventoryDataInteraction;
-	//using Common.Interfaces; don't know what this is for yet...
+    //using Common.Interfaces; don't know what this is for yet...
 
-	public class AppBootstrapper : BootstrapperBase
-	{
-		SimpleContainer container;
+    public class AppBootstrapper : BootstrapperBase
+    {
+        SimpleContainer container;
 
-		public AppBootstrapper()
-		{
-			Initialize();
-		}
+        public AppBootstrapper()
+        {
+            Initialize();
+        }
 
-		protected override void Configure()
-		{
-			container = new SimpleContainer();
+        protected override void Configure()
+        {
+            container = new SimpleContainer();
 
-			container.Activated += (instance) =>
-			{
-				container.BuildUp(instance);
-			};
+            container.Activated += (instance) =>
+            {
+                container.BuildUp(instance);
+            };
 
             container.Singleton<IWindowManager, WindowManager>();
             container.Singleton<IEventAggregator, EventAggregator>();
