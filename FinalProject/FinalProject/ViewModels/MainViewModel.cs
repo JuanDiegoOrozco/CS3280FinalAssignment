@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Caliburn.Micro;
 using InventoryData;
 using System.Collections.ObjectModel;
-using FinalAssignment.Views;
+
 namespace FinalAssignment.ViewModels
 {
     class MainViewModel : Conductor<IScreen>.Collection.OneActive
@@ -50,28 +50,19 @@ namespace FinalAssignment.ViewModels
         protected override void OnActivate() {
             base.OnActivate();
             Orders();
+            foreach(Order od in icollection)
+            {
+                //OrdersViewList.
+            }
         }
         public void Orders() {
-            var ordersVM = IoC.Get<OrdersViewModel>();
+            //var ordersVM = IoC.Get<OrdersViewModel>();
             //IoC.Get<OrdersViewModel>();
             //OnActivate(ordersVM);
-            ActivateItem(ordersVM);
         }
-        //public  TheView
-        //{
-        //    get
-        //    {
-        //        return this.OrdersView;
-        //    }
-        //}
-        private void OnActivate(OrdersViewModel ordersVM)
-        {
-            //throw new NotImplementedException();
+        IEnumerable<Order> OrdersView{
+            get { return icollection; }
         }
-
-        //IEnumerable<Order> OrdersView{
-        //    get { return icollection; }
-        //}
         /////////////////////////////////////////////////////////////////
         private ObservableCollection<OrderItem> orderItems;
         public ObservableCollection<OrderItem> AllItems

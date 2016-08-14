@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FinalAssignment.Views
+namespace FinalProject.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
