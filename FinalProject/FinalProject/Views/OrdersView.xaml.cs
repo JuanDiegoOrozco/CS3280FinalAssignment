@@ -13,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace FinalProject.Views
+namespace FinalAssignment.Views
 {
     /// <summary>
     /// Interaction logic for OrdersView.xaml
