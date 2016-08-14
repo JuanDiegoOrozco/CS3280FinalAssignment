@@ -11,5 +11,6 @@ namespace FinalAssignment.ViewModels
 {
     class OrdersViewModel
     {
+
     }
 }

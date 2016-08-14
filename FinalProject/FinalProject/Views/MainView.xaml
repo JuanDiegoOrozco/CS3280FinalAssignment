@@ -24,7 +24,8 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <ListView x:Name="OrdersViewDisplay" HorizontalAlignment="Left" Height="186" Margin="20,225,0,0" VerticalAlignment="Top" Width="487">
+        <ListView x:Name="OrdersViewDisplay" HorizontalAlignment="Left" Height="186" Margin="20,225,0,0" VerticalAlignment="Top" Width="487"
+                  ItemsSource="{Binding Path=AllItems}">
             <ListView.View>
                 <GridView ColumnHeaderStringFormat="">
                     <GridViewColumn Width="80" Header="Item Number"

@@ -36,3 +36,15 @@ D:\Colin Hamilton\Documents\GitHub\CS-3280-Group-Project\CS3280FinalAssignment\F
 D:\Colin Hamilton\Documents\GitHub\CS-3280-Group-Project\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\obj\Debug\InventoryDataInteraction.csprojResolveAssemblyReference.cache
 D:\Colin Hamilton\Documents\GitHub\CS-3280-Group-Project\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\obj\Debug\InventoryDataInteraction.dll
 D:\Colin Hamilton\Documents\GitHub\CS-3280-Group-Project\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\obj\Debug\InventoryDataInteraction.pdb
+D:\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\bin\Debug\InventoryDataInteraction.dll.config
+D:\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\bin\Debug\InventoryDataInteraction.dll
+D:\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\bin\Debug\InventoryDataInteraction.pdb
+D:\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\bin\Debug\InventoryData.dll
+D:\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\bin\Debug\InventoryDataMapping.dll
+D:\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\bin\Debug\InventoryDataMapping.pdb
+D:\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\bin\Debug\InventoryData.pdb
+D:\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\bin\Debug\EntityFramework.xml
+D:\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\bin\Debug\EntityFramework.SqlServer.xml
+D:\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\obj\Debug\InventoryDataInteraction.csprojResolveAssemblyReference.cache
+D:\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\obj\Debug\InventoryDataInteraction.dll
+D:\CS3280FinalAssignment\FinalProject\FinalProject\InventoryDataInteraction\obj\Debug\InventoryDataInteraction.pdb
