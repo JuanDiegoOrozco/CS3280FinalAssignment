@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FinalAssignment.Views"
         mc:Ignorable="d"
-        Title="InventoryView" Height="300" Width="300">
-    <Grid>
-        
+        Title="{Binding DisplayName}" Height="501.333" Width="548.667">
+    <Grid Background="Red">
+        <ListView x:Name="OrdersViewDisplay" HorizontalAlignment="Left" Height="388" Margin="20,23,0,0" VerticalAlignment="Top" Width="487"
+                  ItemsSource="{Binding Path=AllItems}">
+            <ListView.View>
+                <GridView ColumnHeaderStringFormat="">
+                    <GridViewColumn Width="80" Header="Item Number"
+                                    DisplayMemberBinding="{Binding Path=ItemNumber}"/>
+                    <GridViewColumn Width="80" Header="Item Name"
+                                    DisplayMemberBinding="{Binding Path=ItemName}"/>
+                    <GridViewColumn Width="85" Header="Item Cost"
+                                    DisplayMemberBinding="{Binding Path=ItemCost}"/>
+                    <GridViewColumn Width="115" Header="Quantity Purchased"
+                                    DisplayMemberBinding="{Binding Path=QuantityPurchased}"/>
+                    <GridViewColumn Width="110" Header="Cost Paid Per Item"
+                                    DisplayMemberBinding="{Binding Path=CostPaidPerItem}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Window>

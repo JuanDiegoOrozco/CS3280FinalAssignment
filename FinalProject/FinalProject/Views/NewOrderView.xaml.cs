@@ -25,5 +25,23 @@ namespace FinalAssignment.Views
             InitializeComponent();
             DataContext = new NewOrderViewModel();
         }
+
+        private void OrdersB_Click(object sender, RoutedEventArgs e)
+        {
+            var viewWindow = new OrdersView();
+            viewWindow.Show();
+        }
+
+        private void InventoryB_Click(object sender, RoutedEventArgs e)
+        {
+            var viewWindow = new InventoryView();
+            viewWindow.Show();
+        }
+
+        private void NewOrdersB_Click(object sender, RoutedEventArgs e)
+        {
+            var viewWindow = new NewOrderView();
+            viewWindow.Show();
+        }
     }
 }

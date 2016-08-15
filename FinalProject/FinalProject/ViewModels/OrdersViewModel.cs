@@ -14,7 +14,7 @@ namespace FinalAssignment.ViewModels
         private ObservableCollection<Order> icollection;
         public OrdersViewModel()
         {
-            //this.DisplayName = "Orders area";
+            this.DisplayName = "View Orders";
 
             //Dummy data
             Order dummy1 = new Order();

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FinalAssignment.Views"
         mc:Ignorable="d"
-        Title="OrdersView" Height="501.333" Width="548.667">
+        Title="{Binding DisplayName}" Height="501.333" Width="548.667">
     <Grid Background="Gold">
         <Button x:Name="OrdersB" Content="Orders" HorizontalAlignment="Left" Margin="20,433,0,0" VerticalAlignment="Top" Width="115"/>
         <Button x:Name="InventoryB" Content="Inventory" HorizontalAlignment="Center" Margin="215,433,199,0" VerticalAlignment="Top" Width="103"/>
