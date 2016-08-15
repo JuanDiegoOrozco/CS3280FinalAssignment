@@ -27,8 +27,19 @@ namespace FinalAssignment.ViewModels
             dummy1.Purchaser = dumdum;
             dummy1.TotalCost = 1000000;
 
+            Order dummy2 = new Order();
+            dummy2.OrderNumber = 2;
+            dummy2.DatePlaced = DateTime.Today;
+            User dumdum2 = new User();
+            dumdum2.Name = "50 Cent";
+            dumdum2.Phone = "435-754-8289";
+            dumdum2.UserId = 5678;
+            dummy2.Purchaser = dumdum2;
+            dummy2.TotalCost = .50m;
+
             icollection = new ObservableCollection<Order>();
             icollection.Add(dummy1);
+            icollection.Add(dummy2);
         }
         public ObservableCollection<Order> AllOrders
         {
@@ -56,5 +67,17 @@ namespace FinalAssignment.ViewModels
         {
             get { return icollection; }
         }
+
+        /////////////////////////////////////////////////////////////////
+
+        private ObservableCollection<OrderItem> orderItems;
+        public ObservableCollection<OrderItem> AllItems
+        {
+            get
+            {
+                return orderItems;
+            }
+        }
+        
     }
 }
