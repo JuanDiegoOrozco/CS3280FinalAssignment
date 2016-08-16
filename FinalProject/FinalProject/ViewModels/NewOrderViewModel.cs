@@ -40,6 +40,49 @@ namespace FinalAssignment.ViewModels
             icollection = new ObservableCollection<Order>();
             icollection.Add(dummy1);
             icollection.Add(dummy2);
+
+            ////////////////////////////////////////////////////////
+
+            Item thing1 = new Item();
+            thing1.Name = "Retro Jordan 4";
+            thing1.Cost = 199.99m;
+            thing1.ItemNumber = 4;
+            thing1.OrderItems = dummy1.OrderItems;
+            thing1.QuantityOnHand = 7;
+
+            Item thing2 = new Item();
+            thing2.Name = "Retro Jordan 13";
+            thing2.Cost = 249.99m;
+            thing2.ItemNumber = 13;
+            thing2.OrderItems = dummy2.OrderItems;
+            thing2.QuantityOnHand = 17;
+
+            OrderItem dumster1 = new OrderItem();
+            dumster1.ItemNumber = thing1.ItemNumber;
+            dumster1.Quantity = 5;
+            dumster1.ItemCost = 41;
+            dumster1.Item = thing1;
+            dumster1.OrderNumber = dummy1.OrderNumber;
+            dumster1.OrderItemNumber = thing1.ItemNumber;
+            dumster1.Order = dummy1;
+
+            OrderItem dumster2 = new OrderItem();
+            dumster2.ItemNumber = thing1.ItemNumber;
+            dumster2.Quantity = 9;
+            dumster2.ItemCost = 70;
+            dumster2.Item = thing2;
+            dumster2.OrderNumber = dummy2.OrderNumber;
+            dumster2.OrderItemNumber = thing2.ItemNumber;
+            dumster2.Order = dummy1;
+
+            //icollection = new ObservableCollection<OrderItem>();
+            //icollection.Add(dumster1);
+            //icollection.Add(dumster2);
+
+            //icollection = new ObservableCollection<Item>();
+            //icollection.Add(thing1);
+            //icollection.Add(thing2);
+
         }
         public ObservableCollection<Order> AllOrders
         {
@@ -78,6 +121,6 @@ namespace FinalAssignment.ViewModels
                 return orderItems;
             }
         }
-        
+
     }
 }
