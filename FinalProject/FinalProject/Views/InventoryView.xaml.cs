@@ -18,7 +18,7 @@ namespace FinalAssignment.Views
     /// <summary>
     /// Interaction logic for InventoryView.xaml
     /// </summary>
-    public partial class InventoryView : Window
+    public partial class InventoryView : UserControl
     {
         public InventoryView()
         {
@@ -28,20 +28,20 @@ namespace FinalAssignment.Views
 
         private void OrdersB_Click(object sender, RoutedEventArgs e)
         {
-            var viewWindow = new OrdersView();
-            viewWindow.Show();
+            //var viewWindow = new OrdersView();
+            //viewWindow.Show();
         }
 
         private void InventoryB_Click(object sender, RoutedEventArgs e)
         {
-            var viewWindow = new InventoryView();
-            viewWindow.Show();
+            //var viewWindow = new InventoryView();
+            //viewWindow.Show();
         }
 
         private void NewOrdersB_Click(object sender, RoutedEventArgs e)
         {
-            var viewWindow = new NewOrderView();
-            viewWindow.Show();
+            //var viewWindow = new NewOrderView();
+            //viewWindow.Show();
         }
     }
 }

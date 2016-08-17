@@ -15,7 +15,7 @@ namespace FinalAssignment.ViewModels
         public OrdersViewModel()
         {
             this.DisplayName = "View Orders";
-
+            //Console.WriteLine("Wen through the Orders constructor!!!!!!");
             //Dummy data
             Order dummy1 = new Order();
             dummy1.OrderNumber = 1;
@@ -48,21 +48,22 @@ namespace FinalAssignment.ViewModels
                 return icollection;
             }
         }
-        //protected override void OnActivate()
-        //{
-        //    base.OnActivate();
-        //    Orders();
-        //}
+        protected override void OnActivate()
+        {
+            //base.OnActivate();
+            Orders();
+           
+        }
         public void Orders()
         {
             //var ordersVM = IoC.Get<OrdersViewModel>();
-            //IoC.Get<OrdersViewModel>();
+            //IoC.Get<OrdersView>();
             //OnActivate(ordersVM);
         }
-        IEnumerable<Order> OrdersView
-        {
-            get { return icollection; }
-        }
+        //IEnumerable<Order> OrdersView
+        //{
+        //    get { return icollection; }
+        //}
         /////////////////////////////////////////////////////////////////
         private ObservableCollection<OrderItem> orderItems;
         public ObservableCollection<OrderItem> AllItems

@@ -1,15 +1,12 @@
-﻿<Window x:Class="FinalAssignment.Views.NewOrderView"
+﻿<UserControl x:Class="FinalAssignment.Views.NewOrderView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FinalAssignment.Views"
-        mc:Ignorable="d"
-        Title="{Binding DisplayName}" Height="501.333" Width="548.667">
+        mc:Ignorable="d" Height="359.333" Width="530.667"
+       >
     <Grid Background="Orange">
-        <Button x:Name="OrdersB" Content="Orders" HorizontalAlignment="Left" Margin="20,433,0,0" VerticalAlignment="Top" Width="115" Click="OrdersB_Click"/>
-        <Button x:Name="InventoryB" Content="Inventory" HorizontalAlignment="Center" Margin="215,433,199,0" VerticalAlignment="Top" Width="103"  Click="InventoryB_Click"/>
-        <Button x:Name="NewOrdersB" Content="New Orders" HorizontalAlignment="Right" Margin="0,433,10,0" VerticalAlignment="Top" Width="103"  Click="NewOrdersB_Click"/>
         <ListView x:Name="OrdersViewList" HorizontalAlignment="Left" Height="297" Margin="35,39,0,0" VerticalAlignment="Top" Width="457" ItemsSource="{Binding Path=AllOrders}">
             <ListView.View>
                 <GridView ColumnHeaderStringFormat="">
@@ -26,4 +23,4 @@
         </ListView>
 
     </Grid>
-</Window>
+</UserControl>
