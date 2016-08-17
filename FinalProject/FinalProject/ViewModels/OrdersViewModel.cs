@@ -19,7 +19,7 @@ namespace FinalAssignment.ViewModels
             //Dummy data
             Order dummy1 = new Order();
             dummy1.OrderNumber = 1;
-            dummy1.DatePlaced = DateTime.Today;
+            dummy1.DatePlaced = DateTime.Now;
             User dumdum = new User();
             dumdum.Name = "Mike Jones";
             dumdum.Phone = "218-330-8004";
@@ -29,7 +29,7 @@ namespace FinalAssignment.ViewModels
 
             Order dummy2 = new Order();
             dummy2.OrderNumber = 2;
-            dummy2.DatePlaced = DateTime.Today;
+            dummy2.DatePlaced = DateTime.Now;
             User dumdum2 = new User();
             dumdum2.Name = "50 Cent";
             dumdum2.Phone = "435-754-8289";

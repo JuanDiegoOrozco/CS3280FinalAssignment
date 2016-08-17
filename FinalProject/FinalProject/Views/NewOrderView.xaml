@@ -13,14 +13,12 @@
         <ListView x:Name="OrdersViewList" HorizontalAlignment="Left" Height="297" Margin="35,39,0,0" VerticalAlignment="Top" Width="457" ItemsSource="{Binding Path=AllOrders}">
             <ListView.View>
                 <GridView ColumnHeaderStringFormat="">
-                    <GridViewColumn Width="85" Header="Order Number"
+                    <GridViewColumn Width="100" Header="Order Number"
                                     DisplayMemberBinding="{Binding Path=OrderNumber}"/>
-                    <GridViewColumn Width="135" Header="Date Placed"
+                    <GridViewColumn Width="150" Header="Date Purchased"
                                     DisplayMemberBinding="{Binding Path=DatePlaced}"/>
-                    <GridViewColumn Width="121" Header="Purchaser"
+                    <GridViewColumn Width="200" Header="Purchaser"
                                     DisplayMemberBinding="{Binding Path=Purchaser.Name}"/>
-                    <GridViewColumn Width="110" Header="Order Total"
-                                    DisplayMemberBinding="{Binding Path=TotalCost}"/>
                 </GridView>
             </ListView.View>
         </ListView>
