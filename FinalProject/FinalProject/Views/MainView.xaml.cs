@@ -25,36 +25,24 @@ namespace FinalAssignment.Views
         {
             InitializeComponent();
             DataContext = new MainViewModel();
-            OrdersView x = new OrdersView();
-            theContent.Children.Add(x);
-
         }
 
-        
-
-        private void OrdersView_SourceUpdated(object sender, DataTransferEventArgs e)
+        private void OrdersB_Click(object sender, RoutedEventArgs e)
         {
-
+            var viewWindow = new OrdersView();
+            viewWindow.Show();
         }
 
-        private void OrdersB_Click_1(object sender, RoutedEventArgs e)
-        {
-            OrdersView x = new OrdersView();
-            theContent.Children.RemoveAt(0);
-            theContent.Children.Add(x);
-        }
         private void InventoryB_Click(object sender, RoutedEventArgs e)
         {
-            InventoryView x = new InventoryView();
-            theContent.Children.RemoveAt(0);
-            theContent.Children.Add(x);
+            var viewWindow = new InventoryView();
+            viewWindow.Show();
         }
 
         private void NewOrdersB_Click(object sender, RoutedEventArgs e)
         {
-            NewOrderView x = new NewOrderView();
-            theContent.Children.RemoveAt(0);
-            theContent.Children.Add(x);
+            var viewWindow = new NewOrderView();
+            viewWindow.Show();
         }
     }
 }
